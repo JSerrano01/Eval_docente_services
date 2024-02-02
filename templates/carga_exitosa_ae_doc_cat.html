@@ -1,0 +1,65 @@
+<!-- carga_exitosa.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga Exitosa</title>
+    <style>
+        body {
+            background-color: #4e73df;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #025951), to(#F2B705));
+            background-image: linear-gradient(180deg, #025951 10%, #F2B705 100%);
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #025951;
+            border-color: #F2B705;
+            border-radius: 0.2rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #F2B705;
+            border-color: #4e73df;
+        }
+    </style>
+</head>
+<body>
+    <h1>Carga Exitosa</h1>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    <form action="{{ url_for('ae_catedra_py_dashboard') }}" method="GET">
+        <button type="submit">REGRESAR</button>
+    </form>
+</body>
+</html>
