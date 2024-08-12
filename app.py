@@ -192,7 +192,7 @@ def carga_exitosa_estud():
 def e_estud_py_dashboard():
     # return redirect("http://localhost/evaluacion_docente/dashboard/e_estud_py.php")
     return redirect(
-        "https://apps2.colmayor.edu.co/evaluacion_docente/dashboard/e_estud_py.php"
+        "https://apps1.colmayor.edu.co/evaluacion_docente/dashboard/e_estud_py.php"
     )
 
     # -----------------------FUNCION CARGA DE DATOS AUTOEVALUACION CON CATEDRA ---------------------------------
@@ -275,7 +275,7 @@ def carga_exitosa_ae_doc_cat():
 def ae_catedra_py_dashboard():
     # return redirect("http://localhost/evaluacion_docente/dashboard/ae_doc_cat_py.php")
     return redirect(
-        "https://apps2.colmayor.edu.co/evaluacion_docente/dashboard/ae_doc_cat_py.php"
+        "https://apps1.colmayor.edu.co/evaluacion_docente/dashboard/ae_doc_cat_py.php"
     )
 
     # -----------------------FUNCION CARGA DE DATOS AUTOEVALUACION SIN CATEDRA ---------------------------------
@@ -354,7 +354,7 @@ def carga_exitosa_ae_doc_sin_cat():
 def ae_sin_catedra_py_dashboard():
     # return redirect("http://localhost/evaluacion_docente/dashboard/ae_doc_sin_cat_py.php")
     return redirect(
-        "https://apps2.colmayor.edu.co/evaluacion_docente/dashboard/ae_doc_sin_cat_py.php"
+        "https://apps1.colmayor.edu.co/evaluacion_docente/dashboard/ae_doc_sin_cat_py.php"
     )
 
     # -----------------------FUNCION CARGA DE DATOS EVALUACION DECANO PLANTA ---------------------------------
@@ -436,7 +436,7 @@ def carga_exitosa_e_dec_planta():
 def e_dec_planta_py_dashboard():
     # return redirect("http://localhost/evaluacion_docente/dashboard/e_dec_planta_py.php")
     return redirect(
-        "https://apps2.colmayor.edu.co/evaluacion_docente/dashboard/e_dec_planta_py.php"
+        "https://apps1.colmayor.edu.co/evaluacion_docente/dashboard/e_dec_planta_py.php"
     )
 
     # -----------------------FUNCION CARGA DE DATOS DECANO CATEDRA ---------------------------------
@@ -514,7 +514,7 @@ def carga_exitosa_e_dec_catedra():
 @app.route("/e_dec_catedra_py_dashboard")
 def e_dec_catedra_py_dashboard():
     #return redirect("http://localhost/evaluacion_docente/dashboard/e_dec_catedra_py.php")
-    return redirect("https://apps2.colmayor.edu.co/evaluacion_docente/dashboard/e_dec_catedra_py.php")
+    return redirect("https://apps1.colmayor.edu.co/evaluacion_docente/dashboard/e_dec_catedra_py.php")
 
 
 if __name__ == "__main__":
